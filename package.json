@@ -1,0 +1,17 @@
+{
+  "name": "1dleryu-cloud-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "1DLERYU Cloud Engine — private server-side MP4 analysis, patching, job tracking and storage for the 1dleryu website",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.27.0"
+  }
+}
